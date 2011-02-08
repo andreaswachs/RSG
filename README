@@ -1,0 +1,26 @@
+Title: rsg (Random String Generator)
+Author: Andreas Wachs
+Special thanks to: -
+
+Description: This program is a tiny tool for printing out random strings. 
+
+How to use it: Load the script into your Ruby intrepeter.
+
+Flags and arguements.
+
+    --a sets the program to only randomize string(s) with letters (This is the default setting)
+
+    --n sets the program to only randomize string(s) with numbers.
+
+    --an (a mix of both -a and -n).
+    
+    --min_length= set the minimum length of the generated strings (default:8).
+    --max_length= set the maximum length of the generated strings (default:12).
+
+    --count= print out how many strings the program should generate.
+
+    --seperate_with= if --count is set, you can edit how the outputted strings will be seperated.
+
+    --char_palette= if you instead want some other characters to be randomized, you can define your own "palette" to have the program use instead of the default ones.
+
+    --append_palette= if you want to add extra symbols/characters to the default "palettes", you can do it by adding this.
